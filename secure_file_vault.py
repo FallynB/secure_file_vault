@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 
 # Load environment variables
-load_dotenv('real.env')
+load_dotenv('config.env')
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
