@@ -80,10 +80,11 @@ The application currently implements the following security measures:
 * User authentication and access control
 * HTTPS enforcement (when properly configured in production)
 * Principle of least privilege in user permissions
+* Addition of Cross-Site Request Forgery (CSRF) prevention measures
 
 Future security enhancements:
 * Implementation of Cross-Site Scripting (XSS) prevention through input sanitization
-* Addition of Cross-Site Request Forgery (CSRF) prevention measures
+
 
 CSRF Tokens
 CSRF (Cross-Site Request Forgery) tokens have been implemented to enhance the security of our application. These tokens help prevent unauthorized actions from being performed on behalf of authenticated users, thereby protecting against CSRF attacks.
