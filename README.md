@@ -100,7 +100,7 @@ ENCRYPTION_KEY=your_encryption_key_here
 ```
 3. Replace line 17 in `secure_file_vault.py`:
 ```python
-load_dotenv('real.env')
+load_dotenv('config.env')
 ```
 with
 
