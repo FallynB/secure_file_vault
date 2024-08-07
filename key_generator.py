@@ -1,7 +1,7 @@
 import secrets
 import base64
 import os
-#Use to generate encrytion keys
+#Use to generate encryption keys
 def generate_secret_key():
     return secrets.token_hex(16)
 
